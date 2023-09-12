@@ -6,7 +6,6 @@
 To install this Tool please use the following Command:
 ```
 go install github.com/Ractiurd/acqhunt@latest
-
 ```
 
 
@@ -24,7 +23,6 @@ Example:
 Gather acquisitions from both sources for the email address example@example.com:
 ```
 acqhunt -e example@example.com
-
 ```
 
 Gather acquisitions from any single source for the email address example@example.com:
@@ -32,7 +30,6 @@ Gather acquisitions from any single source for the email address example@example
 ```
 acqhunt -e example@example.com -i
 acqhunt -e example@example.com -v
-
 ```
 
 
