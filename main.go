@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+
 	"log"
 	"net/http"
 	"os"
@@ -50,7 +51,6 @@ func main() {
 			fmt.Printf("Error getting email: %v\n", err)
 			return
 		}
-		
 
 		if useViewDNS {
 			if !processViewDNS(email) {
@@ -428,7 +428,7 @@ func getEmail(domainFlag *string) (string, error) {
 		fmt.Println("1", webEmails[0])
 		fmt.Println("2", whoisEmail)
 
-		fmt.Print("Which one do you want to proceed with? (1/2): \n\n If you want to exit, press Enter ")
+		fmt.Print("Which one do you want to proceed with? (1/2): \n\n If you want to exit, press Enter \n >> ")
 		var choice string
 		fmt.Scanln(&choice)
 
