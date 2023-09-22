@@ -50,7 +50,7 @@ func main() {
 			fmt.Printf("Error getting email: %v\n", err)
 			return
 		}
-		fmt.Println(email)
+		
 
 		if useViewDNS {
 			if !processViewDNS(email) {
