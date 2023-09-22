@@ -5,7 +5,7 @@
 ## Installation
 To install this Tool please use the following Command:
 ```
-https://github.com/Ractiurd/acqhunt.git
+git clone https://github.com/Ractiurd/acqhunt.git
 cd acqhunt
 go build .
 ```
