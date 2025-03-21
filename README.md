@@ -77,4 +77,6 @@ sudo mv acqhunt /usr/bin/
 
 AcqHunt offers a trial period of 15 uses for users to evaluate its capabilities. To continue using the tool beyond the trial period, you will need to obtain a license key from the author.
 
-For licensing inquiries and more information, please contact [ractiurd] via visiting [x.com/ractiurd](https://x.com/ractiurd) or [facebook.com/ractiurd](https://facebook.com/ractiurd) and message him directly.
+For licensing inquiries and more information, please contact [ractiurd] via visiting [x.com/ractiurd](https://x.com/ractiurd) 
+or [facebook.com/ractiurd](https://facebook.com/ractiurd) 
+and message him directly.
