@@ -44,6 +44,16 @@ AcqHunt is a versatile reconnaissance tool designed for discovering acquisitions
 
 AcqHunt empowers users to conduct thorough reconnaissance on acquisitions across various digital assets, leveraging multiple sources to compile actionable intelligence. Whether assessing acquisitions from specific domains, IP addresses, organizations, or ASN numbers, AcqHunt offers a seamless and powerful solution for cybersecurity professionals and researchers seeking to enhance their investigative capabilities.
 
+## Prerequisites
+
+Before installing AcqHunt, make sure you have the following dependencies installed:
+
+1. **Whois** – Required for domain lookup. Install it using:
+   ```bash
+   sudo apt install whois -y
+   ```
+  1. **Reverse WHOIS API Key** – AcqHunt requires a Reverse WHOIS API key for certain features. Make sure you have a valid API key before using the tool.
+   
 ## Installation
 
 To install AcqHunt, use the following `go install` command:
