@@ -1,4 +1,4 @@
-module github.com/Ractiurd/acqhunt
+module github.com/ractiurd/acqhunt
 
 
 go 1.24.0
