@@ -57,6 +57,22 @@ Once installed, you can run the tool using:
 ```bash
 acqhunt -h
 ```
+Manual Installation
+If you prefer to install manually, follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/Ractiurd/acqhunt.git
+
+# Navigate to the project directory
+cd acqhunt
+
+# Build the binary
+go build .
+
+# Move the binary to /usr/bin for system-wide access
+sudo mv acqhunt /usr/bin/
+```
+
 ## Licensing
 
 AcqHunt offers a trial period of 15 uses for users to evaluate its capabilities. To continue using the tool beyond the trial period, you will need to obtain a license key from the author.
