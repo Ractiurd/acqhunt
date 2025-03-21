@@ -49,7 +49,7 @@ AcqHunt empowers users to conduct thorough reconnaissance on acquisitions across
 To install AcqHunt, use the following `go install` command:
 
 ```bash
-go install github.com/Ractiurd/acqhunt@latest
+go install github.com/ractiurd/acqhunt@latest
 ```
 This will download and install the latest version of AcqHunt on your system.
 
@@ -61,7 +61,7 @@ Manual Installation
 If you prefer to install manually, follow these steps:
 ```bash
 # Clone the repository
-git clone https://github.com/Ractiurd/acqhunt.git
+git clone https://github.com/ractiurd/acqhunt.git
 
 # Navigate to the project directory
 cd acqhunt
