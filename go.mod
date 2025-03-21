@@ -5,7 +5,6 @@ go 1.23
 toolchain go1.24.0
 
 require (
-	github.com/PuerkitoBio/goquery v1.10.2
 	gopkg.in/yaml.v2 v2.4.0
 )
 
